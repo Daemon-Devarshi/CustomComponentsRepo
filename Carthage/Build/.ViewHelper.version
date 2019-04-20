@@ -1,0 +1,18 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "f78d2d82824a0d672ecd4dd3929578a0f6f3a378",
+  "iOS" : [
+    {
+      "name" : "ViewHelper",
+      "hash" : "1278da5bc6008d14bb689095b46a2378121a422d2707d94d2acd0bfa9810ec46"
+    }
+  ]
+}
