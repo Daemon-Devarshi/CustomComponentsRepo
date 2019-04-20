@@ -1,0 +1,14 @@
+LocationPicker/.DS_Store
+*.DS_Store
+.DS_Store
+LocationPicker.xcworkspace/
+Pods/
+
+Cartfile.resolved
+LocationPicker.xcodeproj/xcuserdata/
+xcuserdata/
+Carthage/Checkouts
+Carthage/Build/iOS/*.bcsymbolmap
+
+LocationPicker.xcodeproj/project.xcworkspace/xcshareddata/
+
