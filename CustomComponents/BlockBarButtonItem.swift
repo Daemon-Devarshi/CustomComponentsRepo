@@ -8,13 +8,13 @@ public typealias BlockAction = (()->Void)
 public class BlockBarButtonItem: UIBarButtonItem {
     private var actionHandler: BlockAction?
     
-    public convenience init(title: String?, style: UIBarButtonItemStyle, actionHandler: BlockAction?) {
+    public convenience init(title: String?, style: UIBarButtonItem.Style, actionHandler: BlockAction?) {
         self.init(title: title, style: style, target: nil, action: #selector(barButtonItemPressed))
         self.target = self
         self.actionHandler = actionHandler
     }
     
-    public convenience init(image: UIImage?, style: UIBarButtonItemStyle, actionHandler: BlockAction?) {
+    public convenience init(image: UIImage?, style: UIBarButtonItem.Style, actionHandler: BlockAction?) {
         self.init(image: image, style: style, target: nil, action: #selector(barButtonItemPressed))
         self.target = self
         self.actionHandler = actionHandler

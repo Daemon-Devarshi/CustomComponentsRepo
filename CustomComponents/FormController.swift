@@ -25,8 +25,8 @@ open class FormController: UIViewController, UITextFieldDelegate {
         super.viewWillAppear(animated)
         
         // Do any additional setup after loading the view.
-        NotificationCenter.default.addObserver(self, selector: #selector(FormController.keyboardWillShow), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(FormController.keyboardWillHide), name: NSNotification.Name.UIKeyboardWillHide, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(FormController.keyboardWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(FormController.keyboardWillHide), name: UIResponder.keyboardWillHideNotification, object: nil)
     }
     
     override open func viewWillDisappear(_ animated: Bool) {
@@ -36,7 +36,7 @@ open class FormController: UIViewController, UITextFieldDelegate {
     }
     
     @objc func keyboardWillShow(notification: NSNotification) {
-        if let keyboardFrame = (notification.userInfo?[UIKeyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue, let currentField = UIResponder.current as? UITextField, let currentFieldFrame = currentField.frame(withRespectTo: view, currentFrame: currentField.frame) {
+        if let keyboardFrame = (notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue, let currentField = UIResponder.current as? UITextField, let currentFieldFrame = currentField.frame(withRespectTo: view, currentFrame: currentField.frame) {
             let keyboardY = keyboardFrame.origin.y
             let currentFieldExtendedY = currentFieldFrame.origin.y + currentFieldFrame.size.height
             if keyboardY <= currentFieldExtendedY {
