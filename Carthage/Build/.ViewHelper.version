@@ -12,8 +12,8 @@
   "iOS" : [
     {
       "name" : "ViewHelper",
-      "hash" : "9312c30eaa53fc66f9b45a02d08c13db9a1cb4e2b6ea54ec4df62f1a767686a0",
-      "swiftToolchainVersion" : "5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
+      "hash" : "585394ff50d8d929c255cd027cb6d985a20f9c86a48ea41492c79d9f51aa077d",
+      "swiftToolchainVersion" : "5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
     }
   ]
 }
