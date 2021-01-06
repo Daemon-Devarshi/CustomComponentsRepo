@@ -11,9 +11,10 @@
   "commitish" : "9d3b695a80d5f7372c16dfaa3fd1ca5dfddc8acf",
   "iOS" : [
     {
+      "hash" : "797945b757a9c5d560b669081ac7111a08cd272053cb096397d892fd08891dbe",
       "name" : "ModelHelper",
-      "hash" : "425603d58574df8ae3c2e9e10fcdded111332ed1ddb6d708a70f2bb0dba8fd43",
-      "swiftToolchainVersion" : "5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
     }
   ]
 }

@@ -11,9 +11,10 @@
   "commitish" : "7ce6ce64d15a9131476baa69a219f044da521164",
   "iOS" : [
     {
+      "hash" : "d7ae1f7c49d8c7f3918b35fd8474c2d32494deb0cc58f96840d7ca85d736bb26",
       "name" : "ViewHelper",
-      "hash" : "6fbeeb1d33aed528837826ed7fcbcc8d9cad7662ce65dcd902d1c77f1ea7af40",
-      "swiftToolchainVersion" : "5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
     }
   ]
 }
