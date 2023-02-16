@@ -11,10 +11,18 @@
   "commitish" : "9d3b695a80d5f7372c16dfaa3fd1ca5dfddc8acf",
   "iOS" : [
     {
-      "hash" : "797945b757a9c5d560b669081ac7111a08cd272053cb096397d892fd08891dbe",
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)",
+      "hash" : "28a6e9ee3120a3887cab7f4bb2c9b8d9edb0057e4c5e6987905f91e4316b4a80",
       "name" : "ModelHelper",
-      "linking" : "dynamic",
-      "swiftToolchainVersion" : "5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+      "container" : "ModelHelper.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)",
+      "hash" : "3927110b3807ef52d6caa2fbe47657118c904ffb344a7889613dda9516592070",
+      "name" : "ModelHelper",
+      "container" : "ModelHelper.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
     }
   ]
 }

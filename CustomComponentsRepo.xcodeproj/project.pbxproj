@@ -25,11 +25,6 @@
 		63D55FA5208CB88F00F0A441 /* BlockBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D55FA3208CB88E00F0A441 /* BlockBarButtonItem.swift */; };
 		63D55FA6208CB88F00F0A441 /* ReactiveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D55FA4208CB88E00F0A441 /* ReactiveButton.swift */; };
 		63D55FA8208CB8C500F0A441 /* FormController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D55FA7208CB8C500F0A441 /* FormController.swift */; };
-		63D55FAB208CBA0000F0A441 /* ModelHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D55FA9208CB9FF00F0A441 /* ModelHelper.framework */; };
-		63D55FAC208CBA0000F0A441 /* ModelHelper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 63D55FA9208CB9FF00F0A441 /* ModelHelper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		63D55FAD208CBA0000F0A441 /* ViewHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D55FAA208CBA0000F0A441 /* ViewHelper.framework */; };
-		63D55FAE208CBA0000F0A441 /* ViewHelper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 63D55FAA208CBA0000F0A441 /* ViewHelper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		63D55FB0208CBA9B00F0A441 /* ViewHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D55FAA208CBA0000F0A441 /* ViewHelper.framework */; };
 		63EAE2EF20DAC4FF00088792 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EAE2EE20DAC4FF00088792 /* CustomImageView.swift */; };
 /* End PBXBuildFile section */
 
@@ -78,8 +73,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				63D55FAE208CBA0000F0A441 /* ViewHelper.framework in Embed Frameworks */,
-				63D55FAC208CBA0000F0A441 /* ModelHelper.framework in Embed Frameworks */,
 				63D55F95208CB64700F0A441 /* CustomComponents.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -113,8 +106,6 @@
 		63D55FA3208CB88E00F0A441 /* BlockBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockBarButtonItem.swift; sourceTree = "<group>"; };
 		63D55FA4208CB88E00F0A441 /* ReactiveButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReactiveButton.swift; sourceTree = "<group>"; };
 		63D55FA7208CB8C500F0A441 /* FormController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormController.swift; sourceTree = "<group>"; };
-		63D55FA9208CB9FF00F0A441 /* ModelHelper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ModelHelper.framework; path = Carthage/Build/iOS/ModelHelper.framework; sourceTree = "<group>"; };
-		63D55FAA208CBA0000F0A441 /* ViewHelper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ViewHelper.framework; path = Carthage/Build/iOS/ViewHelper.framework; sourceTree = "<group>"; };
 		63EAE2EE20DAC4FF00088792 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,8 +114,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63D55FAD208CBA0000F0A441 /* ViewHelper.framework in Frameworks */,
-				63D55FAB208CBA0000F0A441 /* ModelHelper.framework in Frameworks */,
 				63D55F94208CB64700F0A441 /* CustomComponents.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,7 +136,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63D55FB0208CBA9B00F0A441 /* ViewHelper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,8 +153,6 @@
 		63D55F40208CB54D00F0A441 = {
 			isa = PBXGroup;
 			children = (
-				63D55FA9208CB9FF00F0A441 /* ModelHelper.framework */,
-				63D55FAA208CBA0000F0A441 /* ViewHelper.framework */,
 				63D55F4B208CB54D00F0A441 /* CustomComponentsRepo */,
 				63D55F60208CB54D00F0A441 /* CustomComponentsRepoTests */,
 				63D55F6B208CB54D00F0A441 /* CustomComponentsRepoUITests */,
